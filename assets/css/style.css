@@ -1,3 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display:flex;
+    background-color: beige;
+    justify-content: space-between;
+}
+
+#logo img {
+    border-radius: 50%;
+    margin: 1.5vh 0 1.5vh 5vw;
+}
+
+nav ul {
+    display: flex;
+    align-self: center;
+    width: 50vw;
+    justify-content: space-between;
+    padding-right: 5vw;
+    list-style-type: none;
+}
+
+nav ul li a { 
+    text-decoration: none;
+    color: #333333;
+}
+
+nav ul li a:hover {
+    color: purple;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
 h1 {
     color: blue;
 }
@@ -17,3 +53,4 @@ h1 {
 span {
     font-weight: bold;
 }
+
