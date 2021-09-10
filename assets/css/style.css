@@ -1,0 +1,19 @@
+h1 {
+    color: blue;
+}
+
+.lastname {
+    text-transform: uppercase;
+}
+
+#state {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
